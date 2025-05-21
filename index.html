@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -7,46 +7,90 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap"
       rel="stylesheet"
     />
+
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mariana Borges | Fisioterapeuta</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-
   <body>
     <div id="container">
-      <div id="prfile">
-        <!-- <img src="./assets/mb-fisioterapeuta.jpg" alt="Profile" /> -->
+      <div id="profile">
+        <img src="./assets/avatar.png" alt="Profile" />
+        <p>Mariana Borges | Fisioterapeuta</p>
       </div>
-    </div>
 
-    <div id="switch" onclick="toggleMode()">
-      <button></button>
-      <span></span>
-    </div>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
+      </div>
 
-    <ul>
-      <li>
+      <ul>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/mariana-borges-463a22186"
+            target="_blank"
+            >Meu perfil no LinkedIn</a
+          >
+        </li>
+        <li>
+          <a href="https://instagram.com/fisiomarianaborges" target="_blank"
+            >Meu perfil no Instagram
+          </a>
+        </li>
+
+        <li>
+          <a
+            href="https://api.whatsapp.com/send?phone=5515998093480&"
+            target="_blank"
+            >Entre em contato comigo pelo WhatApp
+          </a>
+        </li>
+      </ul>
+      <div id="social-links">
         <a
-          href="https://www.linkedin.com/in/mariana-borges-463a22186?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
+          href="https://www.linkedin.com/in/mariana-borges-463a22186"
           target="_blank"
-          >Meu perfil no LinkedIn</a
         >
-      </li>
-
-      <li>
-        <a href="https://instagram.com/fisiomarianaborges" target="_blank"
-          >Meu perfil no Instagram
+          <ion-icon name="logo-linkedin"></ion-icon>
         </a>
-      </li>
 
-      <li>
+        <a href="https://instagram.com/fisiomarianaborges" target="_blank">
+          <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+
         <a
-          href="https://api.whatsapp.com/send?phone=5515998093480&fbclid=PAZXh0bgNhZW0CMTEAAadKj-MUws40mC-N3XSo-PV3KpfQj1U4O5iQ8mU2kTk6FuneBi9rdI0dY1R-oA_aem_K3bPWdoh0HtKGlausAXIig"
+          href="https://api.whatsapp.com/send?phone=5515998093480"
           target="_blank"
-          >Entre em contato comigo pelo WhatApp
+        >
+          <ion-icon name="logo-whatsapp"></ion-icon>
         </a>
-      </li>
-    </ul>
+      </div>
+
+      <footer id="footer">
+        <p>
+          © 2025 Desenvolvido por
+          <a
+            href="https://github.com/gufvr"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Gustavo Favero
+          </a>
+          · Todos os direitos reservados
+        </p>
+      </footer>
+    </div>
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <script src="./script.js"></script>
   </body>
 </html>
