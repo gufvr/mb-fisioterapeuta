@@ -214,3 +214,15 @@ footer a {
 footer a:hover {
   text-decoration: underline;
 }
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  width: 100%;
+  max-width: 200px; /* ajuste o tamanho máximo conforme o design */
+  height: auto;
+}
