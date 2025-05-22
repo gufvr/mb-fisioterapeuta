@@ -223,6 +223,29 @@ footer a:hover {
 
 #logo {
   width: 100%;
-  max-width: 200px; /* ajuste o tamanho máximo conforme o design */
+  max-width: 80vw;
   height: auto;
+  display: block;
+}
+
+@media (min-width: 768px) {
+  #logo {
+    max-width: 280px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #logo {
+    max-width: 350px;
+  }
+}
+@media (min-width: 1280px) {
+  #logo {
+    max-width: 400px;
+  }
+}
+@media (min-width: 1536px) {
+  #logo {
+    max-width: 450px;
+  }
 }
